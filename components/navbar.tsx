@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <nav className="border-b">
             <Container>
-              <div className="flex items-center h-16 justify-around">
+              <div className="flex items-center h-16 justify-between">
                 <Link href="/">
                     {/* <p className="font-semibold text-xl">SaLMaN SHaiKH</p> */}
                     <p className={cn("font-semibold text-2xl",caveat.className)}>SaLMaN SHaiKH</p>
